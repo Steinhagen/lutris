@@ -1,9 +1,10 @@
 """Utility functions for MAME"""
-import os
 import json
+import os
 from xml.etree import ElementTree
-from lutris.util.log import logger
+
 from lutris import settings
+from lutris.util.log import logger
 
 CACHE_DIR = os.path.join(settings.CACHE_DIR, "mame")
 
